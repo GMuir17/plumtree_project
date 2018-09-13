@@ -46,10 +46,7 @@ public class Seeds {
         advert5.setShop(shop);
         advert5.addCategory(CategoryType.TECHNOLOGY);
         DBHelper.save(advert5);
-        Advert advert7 = new Advert("John Deere Riding Lawn Mower", "Sit back, relax and enjoy mowing the lawn with this classic machine ready to plough the garden of fields.", 200.00, "/images/lawnmower1.jpg");
-        advert7.setShop(shop);
-        advert7.addCategory(CategoryType.GARDEN);
-        DBHelper.save(advert7);
+
         Advert advert6 = new Advert("1960s Chequered Shirt", "A delightful example of a boy's shirt, made by Littlewoods in the 1960s. It is made from green, brown & and white chequered polyester cotton, with long sleeves, all original buttons and a breast pocket.", 14.00, "/images/clothing1.jpg");
         advert6.setShop(shop);
         advert6.addCategory(CategoryType.FASHION);
